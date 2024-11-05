@@ -85,8 +85,17 @@
     --h6: 16px;
 }
 
+.offcanvas {
+	height: 100vh;
+    background: rgb(235, 235, 235);
+}
+.offcanvas.offcanvas-start {
+	border: 0;
+}
 
-
+#navbar.sticky_menu {
+	height: 65px;
+}
 @media (min-width: 320px) and (max-width: 575.98px) { 
     
     #navbar .navbar-toggler svg{
